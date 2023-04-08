@@ -6,7 +6,13 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 /*static char *font = "Iosevka:Bold:size=12:antialias=true:autohint=true";*/
-static char *font = "Iosevka Term:SemiBold:Mono:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Iosevka Term Nerd Font Complete:Mono:SemiBold:pixelsize=16:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"monospace:size=14",
+	"Symbols NF:Semibold:size=14",
+};
+
 static int borderpx = 2;
 
 /*
